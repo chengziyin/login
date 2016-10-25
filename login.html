@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>login page</title>
+</head>
+<body>
+	<script>
+			var field = document.createElement('fieldset');
+			var btn = document.createElement('button');
+			btn.setAttribute('ID','loginBtn');
+			btn.innerHTML = 'CLICK';
+			btn.addEventListener('click',function(){
+				if(field.innerHTML != ''){
+					return;
+				}
+				var createForm = document.createElement('script');
+				createForm.src = 'js/createForm.js';
+				document.body.appendChild(createForm);
+			});
+
+			document.body.appendChild(btn);
+
+			var link = document.createElement('link');
+			link.rel = 'stylesheet';
+			link.setAttribute('href','styles/index.css');
+			document.head.appendChild(link);
+	</script>
+</body>
+</html>

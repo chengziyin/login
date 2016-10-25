@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+#loginBtn {
+  display: block;
+  line-height: 40px;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: blue;
+  color: #fff;
+  margin: 30px auto; }
+
+.legendfield {
+  width: 60%;
+  margin: auto;
+  background: url(../imgs/img.jpg);
+  position: relative; }
+  .legendfield legend {
+    font-size: 30px;
+    color: #f00;
+    margin-left: 30px; }
+  .legendfield ul {
+    list-style: none;
+    margin-left: 50px; }
+    .legendfield ul li {
+      font-size: 30px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px; }
+      .legendfield ul li label {
+        width: 170px;
+        display: inline-block; }
+      .legendfield ul li input {
+        height: 30px;
+        width: 300px; }
+    .legendfield ul li:last-child input {
+      width: 100px; }
+  .legendfield .showBtn {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    font-size: 40px;
+    background-color: aquamarine;
+    color: blue;
+    cursor: pointer; }
+
+.showPic {
+  border: 1px solid blue;
+  background-color: #ddd;
+  margin-left: 40px;
+  font-family: cursive;
+  line-height: 30px;
+  font-size: 26px;
+  letter-spacing: 10px;
+  cursor: pointer; }
+
+/*# sourceMappingURL=index.css.map */
